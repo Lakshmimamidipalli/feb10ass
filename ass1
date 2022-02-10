@@ -1,0 +1,25 @@
+stdno=int(input("enter stdno"))
+stdname=(input("enter stdname"))
+stdgrp=(input("enter stdgrp"))
+sub1=int(input("enter maths marks"))
+sub2=int(input("enter physics marks"))
+sub3=int(input("enter cs marks"))
+sub4=int(input("enter eng marks"))
+sub5=int(input("enter tel marks"))
+sub6=int(input("enter online bussiness marks"))
+if sub1>=35 and sub2>=35 and sub3>=35 and sub4>=40 and sub5>=20 and sub6>=35:
+    print("pass")
+else:
+    print("fail")
+    
+    output
+   enter stdno 41
+   enter stdname mahi
+   enter stdgrp mpcs
+   enter maths marks 70
+    enter physics marks 50
+    enter cs marks 56
+     enter eng marks 69
+     enter tel marks 70
+     enter online business marks 50
+     pass
